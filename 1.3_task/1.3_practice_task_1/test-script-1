@@ -1,0 +1,12 @@
+a = int(input("Let's do some simple math! Please enter your first number: "))
+b = int(input("Please enter your second number: "))
+c = str(input("Please enter + or - to decide the operation: "))
+
+if c == "+":
+    print(a + b)
+
+elif c == "-":
+    print(a - b)
+
+else:
+    print("Hmm, it looks like there was a problem. Make sure you only use + or - as the operator!")
